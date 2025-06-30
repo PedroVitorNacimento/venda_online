@@ -46,6 +46,10 @@ if (!isset($_SESSION['id_usuario'])) {
                 <i class="lucide-list"></i>
                 <span class="sidebar-label">Visualizar Vendas</span>
             </a>
+            <a href="estoque_loja_front.php" class="flex items-center gap-3 px-4 py-2 hover:bg-blue-600 rounded">
+                <i class="lucide-list"></i>
+                <span class="sidebar-label">Estoque</span>
+            </a>
             <a href="http://localhost/venda_online/backend/logout.php" class="flex items-center gap-3 px-4 py-2 hover:bg-red-600 rounded">
                 <i class="lucide-log-out"></i>
                 <span class="sidebar-label">Sair</span>
